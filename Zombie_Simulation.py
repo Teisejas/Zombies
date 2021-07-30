@@ -36,8 +36,6 @@ zboundsx = np.arange(10,32)
 zboundsy = np.arange(10,32)
 zcoords = np.transpose([np.tile(zboundsx, len(zboundsy)), np.repeat(zboundsy, len(zboundsx))])
 
-#Energy steps until humans die naturally
-
 #collect everyone's coordinates 
 everyone = []
 
